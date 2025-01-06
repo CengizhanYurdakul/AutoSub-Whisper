@@ -1,0 +1,6 @@
+moviepy
+transformers
+accelerate
+torch
+torchvision
+deep_translator
