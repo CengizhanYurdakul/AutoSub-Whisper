@@ -1,3 +1,6 @@
+# AutoSub
+![Demo](animated.gif)
+
 # Installation
 ```
 conda create --name autosub python==3.11
