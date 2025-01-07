@@ -50,6 +50,8 @@ class Processor:
             startTime = subtitle["timestamp"][0]
             endTime = subtitle["timestamp"][1]
             text = subtitle["text"]
+            if text[0] == " ": text = text[1:]
+            print(startTime, endTime, text)
             translatedText = self.translator.translate(text)
 
             if startTime == 0 and c != 0:
